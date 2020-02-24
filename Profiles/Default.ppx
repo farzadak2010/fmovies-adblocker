@@ -23,13 +23,7 @@
     <ProcessServices enabled="false" />
     <ProcessOtherUsers enabled="false" />
   </Options>
-  <ProxyList>
-    <Proxy id="100" type="HTTPS">
-      <Address>server</Address>
-      <Port>443</Port>
-      <Options>48</Options>
-    </Proxy>
-  </ProxyList>
+  <ProxyList />
   <ChainList />
   <RuleList>
     <Rule enabled="true">
@@ -39,22 +33,12 @@
     </Rule>
     <Rule enabled="true">
       <Name>ADS</Name>
-      <Targets>mentiopportal.pro;olicyconsendsi.info;abgligarchan.com;sauwoaptain.com;adsrv4k.com;streamunlimited.co;abgligarchan.com;inabsolor.com;loadus.exelator.com;tagbucket.cc;olicyconsendsi.info;inpagepush.com;googleadservices.com;*.googleadservices.com;tagbucket.cc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</Targets>
+      <Targets>mentiopportal.pro;olicyconsendsi.info;abgligarchan.com;sauwoaptain.com;adsrv4k.com;streamunlimited.co;abgligarchan.com;inabsolor.com;loadus.exelator.com;tagbucket.cc;olicyconsendsi.info;inpagepush.com;googleadservices.com;*.googleadservices.com;tagbucket.cc;runative-syndicate.com;14nuzznszbdp.com;*.propellerclick.com;propellerclick.com;runative.com;*.dspmulti.com;postlnk.com;secure.adnxs.com;fastlane.rubiconproject.com;*.3lift.com;infinite.streamvid.co;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</Targets>
       <Action type="Block" />
     </Rule>
     <Rule enabled="true">
-      <Name>Proxy</Name>
-      <Targets>*.twitter.com;twitter.com;github.com</Targets>
-      <Action type="Proxy">100</Action>
-    </Rule>
-    <Rule enabled="true">
-      <Name>Iran Direct</Name>
-      <Targets>*.persiangig.com</Targets>
-      <Action type="Direct" />
-    </Rule>
-    <Rule enabled="true">
       <Name>Default</Name>
-      <Action type="Proxy">100</Action>
+      <Action type="Direct" />
     </Rule>
   </RuleList>
 </ProxifierProfile>
